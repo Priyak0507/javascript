@@ -1,0 +1,30 @@
+#calc{
+  border: 2px solid lightgrey;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 13px;
+  background-color: black;
+}
+#display{
+  width:85%;
+  margin: 10px;
+  font-size: 30px;
+}
+.btn{
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  font-weight: bold;}
+#button-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn:hover{
+  width: 50px;
+  height: 50px;
+}
+.btn:active{
+  background-color: grey;
+}
